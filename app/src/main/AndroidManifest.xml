@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prathamkesarkar.constraintlayoutexample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ConstraintListActivity"
+            android:label="An amazing Mountain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Sample Example"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BiasActivity"
+            android:label="Bias Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DescriptionActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/mount_desc"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PlaceHolderActivity"
+            android:label="PlaceHolder Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".GroupActivity"
+            android:label="Group Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".BarrierActivity"
+            android:label="Barrier Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+    </application>
+</manifest>

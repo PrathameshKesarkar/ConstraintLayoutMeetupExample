@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConstraintLayoutExample</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="mount_title">Volcano Smoke</string>
+    <string name="mount_desc">Mount Sinabung, Indonesia</string>
+    <string name="random_desc">That’s not bad for a first pass. However, some truths aren’t that impressive. Real beauty in truth surely has to involve some deep understanding or insight, as one encounters when one discovers a semantic paradox, such as the liar sentence.</string>
+</resources>

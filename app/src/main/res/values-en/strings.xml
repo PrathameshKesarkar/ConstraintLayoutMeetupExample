@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ConstraintLayoutExample</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="mount_title">Volcano Smoke</string>
+    <string name="mount_desc">Mount Sinabung, Indonesia</string>
+</resources>

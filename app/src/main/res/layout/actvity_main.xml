@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/list_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Activity"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="56dp"/>
+
+    <Button
+        android:id="@+id/bias_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bias Activity"
+        android:layout_marginTop="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_activity_btn"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/desc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description Activity"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bias_btn"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/place_holder_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/desc_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        android:text="PlaceHolder Activity"/>
+    <Button
+        android:id="@+id/grp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/place_holder_btn"
+        android:layout_marginTop="40dp"
+        android:text="Group Activity"/>
+    <Button
+        android:id="@+id/barrier_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barrier Activity"
+        app:layout_constraintTop_toBottomOf="@+id/grp_btn"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

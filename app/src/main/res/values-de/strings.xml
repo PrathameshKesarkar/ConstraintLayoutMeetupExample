@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Familienname</string>
+    <string name="mount_desc">Berg Shinbu</string>
+</resources>
